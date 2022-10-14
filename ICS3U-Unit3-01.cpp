@@ -9,24 +9,21 @@
 
 int main() {
     // creating variables
-    float firstNumber;
-    float secondNumber;
-    float total;
+    int firstNumber;
+    int secondNumber;
+    int total;
 
     // input
-    std::cout << "Please type in the first number: ";
+    std::cout << "Please type in the first number(integer): ";
     std::cin >> firstNumber;
-    std::cout << "Second number you want to add them up: ";
+    std::cout << "Second number you want to add them up(integer): ";
     std::cin >> secondNumber;
 
     // process
     total = firstNumber + secondNumber;
 
     // output
-    std::cout << "\nThe total for numbers "
-              << firstNumber << " and " << secondNumber << " is "
-              << std::fixed << std::setprecision(2) << std::setfill('0')
-              << total << ".";
+    std::cout << "\n" << firstNumber << " + " << secondNumber << " = " << total << ".";
 
     std::cout << "\n\n\nDone.\n";
 }
