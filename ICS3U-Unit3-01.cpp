@@ -23,7 +23,8 @@ int main() {
     total = firstNumber + secondNumber;
 
     // output
-    std::cout << "\n" << firstNumber << " + " << secondNumber << " = " << total << ".";
+    std::cout << "\n" << firstNumber << " + "
+              << secondNumber << " = " << total << ".";
 
     std::cout << "\n\n\nDone.\n";
 }
